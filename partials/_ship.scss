@@ -1,0 +1,76 @@
+.ship {
+  background: linear-gradient(#15556695, rgba(0, 0, 0, 0.665)),
+    url("/container2.jpg");
+  // height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+  padding: 4rem;
+  .logic {
+    background-color: #155466;
+    padding: 1rem;
+    border-radius: 1rem;
+    @media (max-width: 448px) {
+      font-size: 0.9rem;
+      // width: 100%;
+      padding: 0.5rem;
+    }
+  }
+  .buzz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .cargo {
+      font-size: 4rem;
+      // font-size: clamp(1rem, 10vh, 4rem);
+      @media (max-width: 980px) {
+        font-size: 3rem;
+      }
+      @media (max-width: 770px) {
+        font-size: 2rem;
+      }
+      @media (max-width: 563px) {
+        font-size: 1.5rem;
+      }
+      @media (max-width: 448px) {
+        font-size: 1rem;
+      }
+    }
+    .cargo2 {
+      font-size: 4rem;
+      @media (max-width: 980px) {
+        font-size: 3rem;
+      }
+      @media (max-width: 770px) {
+        font-size: 2rem;
+      }
+      @media (max-width: 563px) {
+        font-size: 1.5rem;
+      }
+      @media (max-width: 448px) {
+        font-size: 1rem;
+      }
+      // font-size: clamp(1rem, 10vh, 3.5rem);
+    }
+    .take {
+      @media (max-width: 563px) {
+        font-size: 0.5rem;
+      }
+      @media (max-width: 563px) {
+        font-size: 0.3rem;
+      }
+    }
+  }
+  .cargo3 {
+    background-color: #ff7c44;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+}

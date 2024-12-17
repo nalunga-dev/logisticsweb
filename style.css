@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1254px;
+  margin: auto;
+  height: 100vh;
+  background-color: aliceblue;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+nav {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem;
+}
+@media (max-width: 1150px) {
+  nav {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 530px) {
+  nav {
+    flex-direction: column;
+  }
+}
+nav .opening {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+@media (max-width: 725px) {
+  nav .opening {
+    display: none;
+  }
+}
+nav .opening .bxs-alarm-add {
+  color: red;
+  font-size: 1.2rem;
+}
+nav .opening .hours {
+  color: #134c5a;
+}
+nav .opening .time {
+  color: #8e95a9;
+}
+nav .location {
+  display: flex;
+  gap: 0.5rem;
+}
+@media (max-width: 1150px) {
+  nav .location {
+    display: none;
+  }
+}
+@media (max-width: 725px) {
+  nav .location {
+    display: flex;
+    gap: 0.5rem;
+  }
+}
+nav .bxs-location-plus {
+  color: red;
+  font-size: 1.2rem;
+}
+nav .locate {
+  color: #134c5a;
+}
+nav .san {
+  color: red;
+}
+nav .social {
+  background-color: #104b59;
+  display: flex;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  gap: 0.5rem;
+}
+@media (max-width: 530px) {
+  nav .social {
+    width: 90%;
+  }
+}
+
+.sub {
+  background-color: #104b59;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+@media (max-width: 1150px) {
+  .sub {
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+@media (max-width: 530px) {
+  .sub {
+    flex-direction: column;
+  }
+}
+.sub .home {
+  color: #ff7c44;
+  border-bottom: 1px solid #ff7c44;
+  background-color: #295d6b;
+  padding: 2.5rem;
+  margin-left: 15rem;
+}
+@media (max-width: 1150px) {
+  .sub .home {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 725px) {
+  .sub .home {
+    display: none;
+  }
+}
+.sub .suba {
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+@media (max-width: 1150px) {
+  .sub .suba {
+    display: none;
+  }
+}
+.sub .cell {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  gap: 1rem;
+}
+.sub .cell .bx-phone-incoming {
+  color: #ff7c44;
+  font-size: 1.5rem;
+  background-color: #295d6b;
+  padding: 1rem;
+  border-radius: 50%;
+}
+.sub .cell .no {
+  color: #ff7c44;
+}
+.sub .qoute {
+  background-color: #ff7c44;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.sub .qoute .quest {
+  background-color: #295d6b;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.ship {
+  background: linear-gradient(rgba(21, 85, 102, 0.5843137255), rgba(0, 0, 0, 0.665)), url("/container2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+  padding: 4rem;
+}
+.ship .logic {
+  background-color: #155466;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+@media (max-width: 448px) {
+  .ship .logic {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+}
+.ship .buzz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ship .buzz .cargo {
+  font-size: 4rem;
+}
+@media (max-width: 980px) {
+  .ship .buzz .cargo {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 770px) {
+  .ship .buzz .cargo {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 563px) {
+  .ship .buzz .cargo {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 448px) {
+  .ship .buzz .cargo {
+    font-size: 1rem;
+  }
+}
+.ship .buzz .cargo2 {
+  font-size: 4rem;
+}
+@media (max-width: 980px) {
+  .ship .buzz .cargo2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 770px) {
+  .ship .buzz .cargo2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 563px) {
+  .ship .buzz .cargo2 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 448px) {
+  .ship .buzz .cargo2 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 563px) {
+  .ship .buzz .take {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 563px) {
+  .ship .buzz .take {
+    font-size: 0.3rem;
+  }
+}
+.ship .cargo3 {
+  background-color: #ff7c44;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}/*# sourceMappingURL=style.css.map */

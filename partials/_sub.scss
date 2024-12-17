@@ -1,0 +1,64 @@
+.sub {
+  background-color: #104b59;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  @media (max-width: 1150px) {
+    justify-content: center;
+    gap: 2rem;
+  }
+  @media (max-width: 530px) {
+    flex-direction: column;
+  }
+  .home {
+    color: #ff7c44;
+    border-bottom: 1px solid #ff7c44;
+    background-color: #295d6b;
+    padding: 2.5rem;
+    margin-left: 15rem;
+    @media (max-width: 1150px) {
+      margin-left: 2rem;
+    }
+    @media (max-width: 725px) {
+      display: none;
+    }
+  }
+  .suba {
+    display: flex;
+    gap: 2rem;
+    color: white;
+    @media (max-width: 1150px) {
+      display: none;
+    }
+  }
+  .cell {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    gap: 1rem;
+    .bx-phone-incoming {
+      color: #ff7c44;
+      font-size: 1.5rem;
+      background-color: #295d6b;
+      padding: 1rem;
+      border-radius: 50%;
+    }
+    .no {
+      color: #ff7c44;
+    }
+  }
+  .qoute {
+    background-color: #ff7c44;
+    padding: 1rem;
+    border-radius: 1rem;
+    .quest {
+      background-color: #295d6b;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      color: white;
+      font-size: 1rem;
+    }
+  }
+}
