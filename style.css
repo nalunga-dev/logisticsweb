@@ -90,6 +90,11 @@ nav .social {
     width: 90%;
   }
 }
+@media (max-width: 530px) {
+  nav .social {
+    font-size: 1.5rem;
+  }
+}
 
 .sub {
   background-color: #104b59;
@@ -151,7 +156,7 @@ nav .social {
   border-radius: 50%;
 }
 .sub .cell .no {
-  color: #ff7c44;
+  color: white;
 }
 .sub .qoute {
   background-color: #ff7c44;
