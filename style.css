@@ -29,6 +29,7 @@ nav {
 @media (max-width: 530px) {
   nav {
     flex-direction: column;
+    background-color: #ff7c44;
   }
 }
 nav .opening {
@@ -149,7 +150,7 @@ nav .social {
   padding: 1rem;
   border-radius: 50%;
 }
-.sub .cell .nob {
+.sub .cell .no {
   color: #ff7c44;
 }
 .sub .qoute {
