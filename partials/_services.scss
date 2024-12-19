@@ -1,0 +1,25 @@
+.services {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 0.5rem;
+  .ser1 {
+    background-color: #ff7d44;
+    text-align: center;
+    color: white;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border-radius: 0.7rem;
+  }
+  .ser2 {
+    color: #0d443b;
+    font-size: 2rem;
+  }
+  .ser3 {
+    color: rgb(18, 11, 30);
+    font-size: 1rem;
+  }
+}

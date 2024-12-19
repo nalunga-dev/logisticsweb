@@ -1,0 +1,37 @@
+.cards {
+  background-color: #013646;
+  padding: 3rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  .carda {
+    background-color: #0e5060;
+    width: 100%;
+    // width: 25%;
+    display: flex;
+    padding: 2rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 1px dashed gray;
+    border-radius: 0.6rem;
+
+    .bxs-plane {
+      color: #e16121;
+      font-size: 3rem;
+    }
+    .bxs-truck {
+      color: #e16121;
+      font-size: 3rem;
+    }
+    .bx-health {
+      color: #e16121;
+      font-size: 3rem;
+    }
+    .bx-directions {
+      color: #e16121;
+      font-size: 3rem;
+    }
+  }
+}

@@ -30,17 +30,15 @@ nav {
       color: #8e95a9;
     }
   }
+
   .location {
     display: flex;
     gap: 0.5rem;
-    @media (max-width: 1150px) {
+    @media (max-width: 1115px) {
       display: none;
     }
-    @media (max-width: 725px) {
-      display: flex;
-      gap: 0.5rem;
-    }
   }
+
   .bxs-location-plus {
     color: red;
     font-size: 1.2rem;
@@ -60,10 +58,9 @@ nav {
     color: white;
     gap: 0.5rem;
     @media (max-width: 530px) {
-      width: 90%;
-    }
-    @media (max-width: 530px) {
-      font-size: 1.5rem;
+      width: 85%;
+      align-items: center;
+      justify-content: center;
     }
   }
 }
